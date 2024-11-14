@@ -8,19 +8,19 @@ To understand why, start by thinking about how to account for all the possible o
 
 So what's $P_{exact}(n, k)$? Well, lucky for us, this is a well known problem is statistics. The formula is:
 
-$$ P_{exact}(n, i) = \binom{n}{i} P_1^i (1 - P_1)^{n - i} $$
+$$ P_{exact}(n, i) = \binom{n}{i} {P_1}^i (1 - {P_1})^{n - i} $$
 
-$\binom{n}{k}$ is the [binomial coefficient](https://mathworld.wolfram.com/BinomialCoefficient.html). Intuitively, it's the number of combinations you can get by choosing *k* distinct items from a group of *n* distinct possibilities. You may have heard it read as "*n* choose *k*". $P_1$ is just the probability of success in a single attempt.
+$\binom{n}{k}$ is the [binomial coefficient](https://mathworld.wolfram.com/BinomialCoefficient.html). Intuitively, it's the number of combinations you can get by choosing *k* distinct items from a group of *n* distinct possibilities. You may have heard it read as "*n* choose *k*". ${P_1}$ is just the probability of success in a single attempt.
 
 Substituting in the formula, we get:
 
-$$ P(n, k) = 1 - \sum_{i=0}^{k-1} \binom{n}{i} P_1^i (1 - P_1)^{n - i} $$
+$$ P(n, k) = 1 - \sum_{i=0}^{k-1} \binom{n}{i} {P_1}^i (1 - {P_1})^{n - i} $$
 
 For our problem, we have these specific values:
 
-* $P_1 = 1.2\% = 0.012$ is the probability of getting Musashi in a single build.
+* ${P_1} = 1.2\% = 0.012$ is the probability of getting Musashi in a single build.
 * $n = 16$ is the number of "attempts" we're making. An "attempt" in this case is a build.
-* $k = 3$ is the minimum number successes we're looking for, which is 3 because that's how many you got.
+* $k = 3$ is the minumum number successes we're looking for, which is 3 because that's how many you got.
 
 Substituting in specific values:
 
@@ -31,4 +31,5 @@ $$ P(16, 3) = 1 - (1) (1) (0.988)^{16} - (16) (0.012) (0.988)^{15} - (120) (0.01
 
 And that's enough to plug into a calculator.
 
-$$ P(16, 3) = 0.00086074974562 = 0.086074974562 \% \approx 0.086 \% $$
+$$ P(16, 3) = 0.00086074974562 = 0.086074974562 \\% \approx 0.086 \\% $$
+
