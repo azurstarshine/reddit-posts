@@ -20,7 +20,7 @@ For our problem, we have these specific values:
 
 * $P_1 = 1.2\% = 0.012$ is the probability of getting Musashi in a single build.
 * $n = 16$ is the number of "attempts" we're making. An "attempt" in this case is a build.
-* $k = 3$ is the minumum number successes we're looking for, which is 3 because that's how many you got.
+* $k = 3$ is the minimum number successes we're looking for, which is 3 because that's how many you got.
 
 Substituting in specific values:
 
