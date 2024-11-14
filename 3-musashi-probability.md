@@ -18,7 +18,7 @@ $$ P(n, k) = 1 - \sum_{i=0}^{k-1} \binom{n}{i} {P_1}^i (1 - {P_1})^{n - i} $$
 
 For our problem, we have these specific values:
 
-* ${P_1} = 1.2\% = 0.012$ is the probability of getting Musashi in a single build.
+* ${P_1} = 1.2\\% = 0.012$ is the probability of getting Musashi in a single build.
 * $n = 16$ is the number of "attempts" we're making. An "attempt" in this case is a build.
 * $k = 3$ is the minumum number successes we're looking for, which is 3 because that's how many you got.
 
