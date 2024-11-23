@@ -17,7 +17,7 @@ Solving for $t$:
 $$
 \begin{aligned}
 0 &= m_i + (m_{recover} - m_{run} r) t \\\\
-- (m_{recover} - m_{run} r) t &= m_i \\\\
+\textminus (m_{recover} - m_{run} r) t &= m_i \\\\
 (m_{run} r - m_{recover}) t &= m_i \\\\
 t &= \frac{m_i}{m_{run} r - m_{recover}}
 \end{aligned}
@@ -73,9 +73,9 @@ $$
 t &= \frac{m_i}{m_{run} r - m_{recover}} \\
 t &= \frac{150 \ \mathrm{morale}}{(12 \ \frac{\mathrm{morale}}{\mathrm{run}}) (7 \ \frac{\mathrm{runs}}{\mathrm{hour}}) - (40 \ \frac{\mathrm{morale}}{\mathrm{hour}})} \\
 t &= \frac{150 \ \mathrm{morale}}{(84 \ \frac{\mathrm{morale}}{\mathrm{hour}}) - (40 \ \frac{\mathrm{morale}}{\mathrm{hour}})} \\
-t &= \frac{150 \ \mathrm{morale}}{44 \ \frac{\mathrm{morale}}{\mathrm{hour}}}
+t &= \frac{150 \ \mathrm{morale}}{44 \ \frac{\mathrm{morale}}{\mathrm{hour}}} \\
 t &= \frac{150}{44} \mathrm{hours} \\
-t &= 3 \frac{9}{22} \mathrm{hours} & \approx 3 \mathrm{hours} \, 24.55 \mathrm{minutes}
+t &= 3 \frac{9}{22} \mathrm{hours} & \approx 3 \mathrm{hours} \ 24.55 \mathrm{minutes}
 \end{aligned}
 $$
 
