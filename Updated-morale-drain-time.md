@@ -16,9 +16,9 @@ Solving for $t$:
 
 $$
 \begin{aligned}
-0 &= m_i + (m_{recover} - m_{run} r) t \\
-- (m_{recover} - m_{run} r) t &= m_i \\
-(m_{run} r - m_{recover}) t &= m_i \\
+0 &= m_i + (m_{recover} - m_{run} r) t \\\\
+- (m_{recover} - m_{run} r) t &= m_i \\\\
+(m_{run} r - m_{recover}) t &= m_i \\\\
 t &= \frac{m_i}{m_{run} r - m_{recover}}
 \end{aligned}
 $$
