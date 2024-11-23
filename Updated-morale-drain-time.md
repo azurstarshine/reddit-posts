@@ -87,7 +87,7 @@ Running the computation for *all* of the values mentioned before gives us these 
 
 First we look at running without an HECLP, which corresponds to $m_{run} = 12 \ \frac{\mathrm{morale}}{\mathrm{run}}$.
 
-| $r \overset{\large\setminus}{\phantom{.}}\overset{\large m_{recover}}{\phantom{l}}$ | 40 | 50 |
+| $r \overset{\large\setminus}{}\overset{\large m_{recover}}{}$ | 40 | 50 |
 |-|-|-|
 | 7 | $3.409091 \ \mathrm{hours} \approx 3 \ \mathrm{hours} \ 24.5 \ \mathrm{minutes}$ | $4.411765 \ \mathrm{hours} \approx 4 \ \mathrm{hours} \ 24.7 \ \mathrm{minutes}$ |
 | 8 | $2.678571 \ \mathrm{hours} \approx 2 \ \mathrm{hours} \ 40.7 \ \mathrm{minutes}$ | $3.26087 \ \mathrm{hours} \approx 3 \ \mathrm{hours} \ 15.7 \ \mathrm{minutes}$ |
@@ -96,7 +96,7 @@ As we can see, even in this case, it only takes a couple of hours of consistentl
 
 Second, we look at running with an HECLP, which uses $m_{run} = 24 \ \frac{\mathrm{morale}}{\mathrm{run}}$.
 
-| $r \overset{\large\setminus}{\phantom{.}}\overset{\large m_{recover}}{\phantom{l}}$ | 40 | 50 |
+| $r \overset{\large\setminus}{}\overset{\large m_{recover}}{}$ | 40 | 50 |
 |-|-|-|
 | 7 | $1.171875 \ \mathrm{hours} \approx 1 \ \mathrm{hour} \ 10.3 \ \mathrm{minutes}$ | $1.271186 \ \mathrm{hours} \approx 1 \ \mathrm{hour} \ 16.3 \ \mathrm{minutes}$ |
 | 8 | $0.986842 \ \mathrm{hours} \approx 0 \ \mathrm{hours} \ 59.2 \ \mathrm{minutes}$ | $1.056338 \ \mathrm{hours} \approx 1 \ \mathrm{hour} \ 3.4 \ \mathrm{minutes}$ |
