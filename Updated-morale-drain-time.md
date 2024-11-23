@@ -37,7 +37,7 @@ So we have $t$ is in $\mathrm{hours}$. That checks out.
 
 ## Initial morale
 
-$$m_i = 150 \ \mathrm{morale}$$
+$m_i = 150 \ \mathrm{morale}$
 
 ## Recovery
 
@@ -57,7 +57,7 @@ A run of T5 takes 6 mob battles. A normal battle consumes 2 morale per battle, b
 
 ## Number of runs per hour
 
-This is obviously the biggest variable. How many full runs can you do per hour? You have a lot of factors to consider: 7 battles, a screen load per battle, the actual battle, time to move between nodes each battle, time to restart a new run during Auto-Repeat, time to notice the Auto-Repeat has ended, and time to clear out your dock of ship drops between Auto-Repeats before starting off a new one. It's hard to get an exact number here, but let's just think about it a little. 2 full Auto-Repeats per hour actually sounds kind of slow. That's a full half hour for that whole process. On the other hand, 3 full Auto-Repeats per hour might be pushing things a little; that only gives you 20 minutes for a full run and everything between, including time to notice. You'd have to have a battle load and complete the battle in less than a minute because $ (7 \ \mathrm{battles})(1 \ \frac{\mathrm{battle}}{\mathrm{minute}}) = 21 \mathrm{minutes} $. 2 Auto-Repeats is 6 runs, and 3 Auto-Repeats is 9 runs. So let's try the values between those two:
+This is obviously the biggest variable. How many full runs can you do per hour? You have a lot of factors to consider: 7 battles, a screen load per battle, the actual battle, time to move between nodes each battle, time to restart a new run during Auto-Repeat, time to notice the Auto-Repeat has ended, and time to clear out your dock of ship drops between Auto-Repeats before starting off a new one. It's hard to get an exact number here, but let's just think about it a little. 2 full Auto-Repeats per hour actually sounds kind of slow. That's a full half hour for that whole process. On the other hand, 3 full Auto-Repeats per hour might be pushing things a little; that only gives you 20 minutes for a full run and everything between, including time to notice. You'd have to have a battle load and complete the battle in less than a minute because $(7 \ \mathrm{battles})(1 \ \frac{\mathrm{battle}}{\mathrm{minute}}) = 21 \mathrm{minutes}$, and you can't fit 3 of those in an hour. 2 Auto-Repeats is 6 runs, and 3 Auto-Repeats is 9 runs. So let's try the values between those two:
 
 * $r = 7 \ \frac{\mathrm{runs}}{\mathrm{hour}}$
 * $r = 8 \ \frac{\mathrm{runs}}{\mathrm{hour}}$
@@ -66,7 +66,7 @@ These of course represent partial Auto-Repeats, but that's fine. We're not going
 
 # Example
 
-We're going to have 8 different results to compare, and I don't want to show manually working through the math with all of them. So here's an example of actually doing the computation once with $m_{recover} = 40 \ \frac{\mathrm{morale}}{\mathrm{hour}}$, $m_{run} = 12 \ \frac{\mathrm{morale}}{\mathrm{run}}$, and $r = 7 \ \frac{\mathrm{runs}}{\mathrm{hour}}$:
+We're going to have 8 different results to compare, and I don't want to show manually working through the arithmetic with all of them. So here's an example of actually doing the computation once with $m_{recover} = 40 \ \frac{\mathrm{morale}}{\mathrm{hour}}$, $m_{run} = 12 \ \frac{\mathrm{morale}}{\mathrm{run}}$, and $r = 7 \ \frac{\mathrm{runs}}{\mathrm{hour}}$:
 
 $$
 \begin{aligned}
